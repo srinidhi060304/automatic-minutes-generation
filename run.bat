@@ -1,0 +1,6 @@
+@echo off
+echo Activating virtual environment...
+call venv\Scripts\activate
+echo Running Meeting Minutes Generator...
+python meeting_minutes_ui.py
+pause
